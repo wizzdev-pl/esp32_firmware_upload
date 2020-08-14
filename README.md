@@ -31,15 +31,17 @@ You will need picocom installed to run this command. When uploading new firmware
 
 ## Environment setup
 
+Go to the directory of the repository:
+```
+cd <repo directory> 
+```
+
 Create directory "venv" in the directory of the repository
 Setup python virtual environment:
 ```
-C:\>C:\path\to\PythonDirectory\python -m venv path\to\repository\upload_to_esp-master\venv
+python -m venv venv
 ```
-Go to the directory of the repository:
-```
-cd C:\>path\to\repository\upload_to_esp-master\
-```
+
 Activate the virtual environment:
 ```
 venv\Scripts\activate.bat
